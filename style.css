@@ -1,2 +1,15 @@
 * {margin: 0; padding: 0; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 body {background-color: bisque; text-align: center;}
+
+.container { display: block; margin-top: 15%;}
+
+p { padding: 4px; width: 80%; margin-left: 9%;;}
+input {width: 60%; height: 30px;}
+
+#btn {width: 30%; margin-left: auto;}
+
+@media screen and (min-width: 680px){
+    .container {margin: 10%;}
+    input {width: 45%; height: 37px;}
+    #btn {width: 30%; margin-left: auto;}
+}
